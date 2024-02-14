@@ -1,0 +1,127 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+  font-family: 'Courier New', monospace;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4; /* Background color */
+  color: #333; /* Text color */
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header Styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+nav {
+  text-align: right; /* Align navigation to the right */
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Section Styles */
+section {
+  margin-top: 20px;
+}
+
+/* Profile Picture Styles */
+img {
+  width: 150px; /* Adjust the size of the profile picture */
+  border-radius: 50%;
+}
+
+/* Media Section Styles */
+.media {
+  margin-top: 20px;
+}
+
+.images, .videos {
+  margin-top: 10px;
+}
+
+.images img {
+  width: 100px;
+  margin-right: 10px;
+}
+
+.videos video {
+  width: 100%;
+}
+@media only screen and (max-width: 600px) {
+  /* Adjust styles for smaller screens */
+  .container {
+    padding: 10px;
+    max-width: 100%;
+  }
+  img {
+    width: 100%; /* Make images responsive */
+  }
+}
+
+/* Add this CSS to style the contact section */
+/* Add this CSS to center the content and adjust its size */
+/* Add this CSS to style the contact section */
+#contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ensures that the content is centered vertically */
+}
+
+.contact-info {
+  text-align: center; /* Center-align the content */
+  font-size: 25px; /* Adjust the font size to medium */
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.contact-item img {
+  width: 30px; /* Adjust the size of the icons as needed */
+  margin-right: 10px;
+}
+
+.contact-item p {
+  margin: 0;
+}
+/* styles.css */
+
+/* Center-align the content within the skills tab */
+#skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ensures that the content is centered vertically */
+}
+
+/* Adjust the font size to medium */
+#skills .container {
+  text-align: center;
+  font-size: 16px;
+}
