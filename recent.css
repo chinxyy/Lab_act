@@ -1,0 +1,65 @@
+/* styles.css */
+
+body {
+    font-family: 'Courier New', monospace;
+    margin: 0;
+    padding: 0;
+  }
+  nav {
+    text-align: right; /* Align navigation to the right */
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .project-images {
+    display: flex;
+    flex-direction: column; /* Arrange images vertically */
+  }
+  
+  .project-images img {
+    width: 100%; /* Make images take full width */
+    height: auto;
+    margin-bottom: 20px; /* Add space between images */
+  }
+  
